@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: black;
+            }
+            #img1{
+                height: 80px;
+            }
+            #a{
+                display: flex;
+                position: relative;
+               
+            }
+            #a1{
+                color: white;
+                position: relative;
+                left:10px;
+                top: 30px;
+               
+               
+            }
+            #a2{
+                color: white;
+                position: relative;
+                left:50px;
+                top: 30px;
+            }
+            #a3{
+                color: white;
+                position: relative;
+                left:90px;
+                top: 30px;
+
+            }
+            #a4{
+                color: white;
+                position: relative;
+                left:130px;
+                top: 30px;
+            }
+            #a5{
+                color: white;
+                position: relative;
+                left:170px;
+                top: 30px;
+            }
+            #a6{
+                position: relative;
+                left: 230px;
+                top: 25px;
+               
+
+               
+               
+            }
+            #img2{
+                height: 20px;
+                width: 20px;
+                background-color: white;
+                position: relative;
+                right: 25px;
+                top:5px;
+               
+               
+            }
+            #s{
+                height: 25px;
+                width: 400px;
+               
+            }
+            #img3{
+                position: relative;
+                left:250px;
+                height: 30px;
+                top:25px;
+               
+            }
+            #img4{
+                position: relative;
+                left:300px;
+                height: 30px;
+                top:25px;
+
+            }
+            #img5{
+                position: relative;
+                left:330px;
+                height: 30px;
+                top:25px;
+               
+               
+       
+            }
+            #img6{
+                height: 200px;
+                width: 100px;
+            }
+                #c{
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 20px;
+           
+            }
+            #img8{
+                height: 150px;
+                width: 300px;
+                border-radius: 5px;
+            }
+            #h{
+                color: white;
+                font-size: 20px;
+            }
+           </style>
+    </head>
+    <body>
+        <div id="a">
+            <img id="img1" src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png">
+            <div id="a1">home</div>
+            <div id="a2">tv shows</div>
+            <div id="a3">movies</div>
+            <div id="a4">New&Popular</div>
+            <div id="a5">My List</div>
+            <div id="a6"> <input  id= "s" placeholder="search for movies,shows and others"> <img id="img2" src="https://cdn-icons-png.flaticon.com/128/5423/5423194.png"></div>
+                <div id="a7"> <img id="img3" src="https://imagedelivery.net/5MYSbk45M80qAwecrlKzdQ/4aafa9d2-b74b-48fd-6124-7852e2c91300/public"></div>
+                <div id="a8"> <img id= "img4" src="https://wallpapers.com/images/hd/netflix-profile-pictures-5yup5hd2i60x7ew3.jpg"></div>
+                <div id="a9"> <img id="img5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7wxxjz9RoIKCDwH2aag5gEW-PXZKyKlbGWgPzjIIqg&s"></div>
+                </div>
+            </div>
+            <h1 id="h">New No Netflix</h1>
+            <div id="c">
+              <img id="img8"src="https://www.comingsoon.net/wp-content/uploads/sites/3/2024/02/Players-2024.jpg">
+                <img id="img8" src="https://dunenewsnet.com/wp-content/uploads/2021/08/Dune-Movie-Official-Poster-banner-feature.jpg">
+                <img id="img8"src="https://content.tupaki.com/en/feeds/2023/12/21/230864-dunki.jpg">
+                <img id="img8"src="data:image/jpeg;base64,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">
+            </div>
+            <h1 id="h">TV SI-FI&Fantasy</h1>
+            <div id="c">
+              <img id="img8"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTmy6koYxit_nwFXD8nDd59o0k3ylIIg7bOg&usqp=CAU">
+                <img id="img8" src="https://puui.wetvinfo.com/vcover_hz_pic/0/67w833gk1n1qyct1583744736/0">
+                <img id="img8"src="https://e0.pxfuel.com/wallpapers/559/269/desktop-wallpaper-netflix-s-all-of-us-are-dead-is-the-k-drama-zombie-survival-series-we-always-wanted-our-review-geek-outpost-yoon-gwi-nam.jpg">
+                <img id="img8"src="https://theredledger.net/wp-content/uploads/2022/10/watcher-2022-review-horror-movie-1200x720-1.jpg">
+            </div>
+            </body>
+            </html>
